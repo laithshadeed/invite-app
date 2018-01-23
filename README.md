@@ -1,27 +1,26 @@
-# invite
+# Invite APP
 
-TODO: Write a description here
+[![Linux Build status](https://travis-ci.org/laithshadeed/invite-test.svg?branch=master)](https://travis-ci.org/laithshadeed/invite-test)
+
+
+Invite your customers within certain range in KM
 
 ## Installation
 
-TODO: Write installation instructions here
+```
+# Install Crystal via https://crystal-lang.org/docs/installation
+shards build --release --no-debug
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+./bin/invite -f path/to/your/data -d distance_in_km
+```
 
-## Development
+## Test
 
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/invite/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
-
-## Contributors
-
-- [[your-github-name]](https://github.com/[your-github-name]) Laith Shadeed - creator, maintainer
+```
+crystal spec
+crystal spec --release --no-debug
+```
