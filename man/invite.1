@@ -1,0 +1,49 @@
+.TH INVITE "1" "Jan 2018" "shards 0.1.0" "User Commands"
+.SH NAME
+invite \- invite customers within certain range
+.SH SYNOPSYS
+.B
+invite
+[\fIOPTION\fR]...
+.SH DESCRIPTION
+.PP
+Invite customers within certain range by reading a text file & a range in KM
+.SH OPTIONS
+\-h, \-\-help
+.RS 4
+Prints usage synopsis.
+.RE
+.PP
+\-f, \-\-file
+.RS 4
+The customer data file. Each line should be a json of customer data with this format:
+{"latitude": "Float64", "longitude": "Float64", "user_id": "Int32", "name": "name"}
+.RE
+.PP
+\-d, \-\-distance
+.RS 4
+Max distance in km from office
+.RE
+.PP
+\-q, \-\-quiet
+.RS 4
+Decreases the log verbosity, printing only warnings and errors.
+.RE
+.PP
+\-v, \-\-verbose
+.RS 4
+Increases the log verbosity, printing all debug statements.
+.RE
+.PP
+\-\-version
+.RS 4
+Prints version number
+.RE
+.SH AUTHOR
+Written by Laith Shadeed.
+.SH "REPORTING BUGS"
+Report bugs to <https://github.com/laithshadeed/invite/issues>
+.SH COPYRIGHT
+Copyright \(co 2018 Laith Shadeed.
+.br
+The MIT License <https://github.com/laithshadeed/invite/blob/master/LICENSE>.

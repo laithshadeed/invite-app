@@ -1,0 +1,13 @@
+name: invite
+version: 0.1.0
+
+authors:
+  - Laith Shadeed <laith.shadeed@gmail.com>
+
+targets:
+  invite:
+    main: src/cli.cr
+
+crystal: 0.24.1
+
+license: MIT
