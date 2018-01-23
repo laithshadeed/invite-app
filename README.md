@@ -33,3 +33,9 @@ docker pull laithshadeed/invite-app
 ```
  man 1 ./man/invite.1
 ```
+
+### Download
+```
+wget https://github.com/laithshadeed/invite-test/releases/download/v0.1.0/invite
+./invite --help
+```
