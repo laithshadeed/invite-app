@@ -2,7 +2,6 @@
 
 [![Linux Build status](https://travis-ci.org/laithshadeed/invite-test.svg?branch=master)](https://travis-ci.org/laithshadeed/invite-test)
 
-
 Invite your customers within certain range in KM
 
 ## Installation
@@ -23,4 +22,9 @@ shards build --release --no-debug
 ```
 crystal spec
 crystal spec --release --no-debug
+```
+
+## Man pages
+```
+ man 1 ./man/invite.1
 ```
