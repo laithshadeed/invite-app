@@ -62,12 +62,6 @@ describe Invite do
       end
     end
 
-    it "should raise exception when file has no permission" do
-      expect_raises(Invite::Parser::NoPermission, "No permission to read file") do
-        raw_customers = Invite::Parser.read("#{__DIR__}/data/no_permission.txt")
-      end
-    end
-
     it "should raise exception when file has invalid json" do
       expect_raises(JSON::ParseException, "Unexpected char") do
         raw_customers = Invite::Parser.read("#{__DIR__}/data/invalid_json.txt")
