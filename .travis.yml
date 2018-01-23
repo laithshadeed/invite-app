@@ -8,6 +8,8 @@ script:
 matrix:
   allow_failures:
   - crystal: nightly
+before_deploy:
+  - make bin
 deploy:
   provider: releases
   api_key:
