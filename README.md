@@ -24,6 +24,11 @@ crystal spec
 crystal spec --release --no-debug
 ```
 
+### Docker
+```
+docker pull laithshadeed/invite-app
+```
+
 ## Man pages
 ```
  man 1 ./man/invite.1
