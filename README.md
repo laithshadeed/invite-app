@@ -1,6 +1,6 @@
 # Invite APP
 
-[![Linux Build status](https://travis-ci.org/laithshadeed/invite-test.svg?branch=master)](https://travis-ci.org/laithshadeed/invite-test)
+[![Linux Build status](https://travis-ci.org/laithshadeed/invite-app.svg?branch=master)](https://travis-ci.org/laithshadeed/invite-app)
 
 Invite your customers within certain range in KM
 
@@ -36,6 +36,6 @@ docker pull laithshadeed/invite-app
 
 ### Download
 ```
-wget https://github.com/laithshadeed/invite-test/releases/download/v0.1.0/invite
+wget https://github.com/laithshadeed/invite-app/releases/download/v0.1.0/invite
 ./invite --help
 ```
